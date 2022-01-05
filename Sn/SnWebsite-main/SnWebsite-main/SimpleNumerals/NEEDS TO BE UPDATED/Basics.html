@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+  <!-- Box Icons -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="Basics.css">
+
+  <link rel="stylesheet" href="prism.css">
+
+
+
+</head>
+<body>
+      <!-- TOP NAVIGATION BAR -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="color: #00bfff">
+    <a class="navbar-brand" href="#" style="color: white;">Simple Numerals</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" style="color: white;">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item" >
+          <a class="nav-link" href="pages/Learn.html" style="color: white;">Learn</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="pages/error404.html" style="color: white;">Exercises</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="pages/donate.html"style="color: white;">Donate</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="pages/videos.html" style="color: white;">Videos </a>
+        </li>
+      </ul>
+
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="color: white;">Search</button>
+    </div>
+  </nav>
+
+  <div class="row">
+      <h1 class="h1 pageTitle" style="text-align: left; padding-right: 10px;">HTML basics</h1>
+    
+      <h5 class="text-muted" style="margin-top: 68px;">The Basic Knowledge of <b>HTML</b></h5>
+
+  </div>
+
+  <p class="p pageDataText text-muted" style="float: left; padding-right: 10px;">Difficulty Level: Basic</p>
+
+  <p class="p text-muted" style="margin-top: 10px;">Last Updated: 15/12/2021</p>
+
+  <div class="jumbotron">
+     <p> HTML is the most popular markup language used for Web pages<br>
+        HTML stands for Hyper Text Markup Language <br>
+        Using HTML you can create your very own website! <br>    
+    </p>
+
+      <br>
+      Click this button to learn more about HTML <br>
+      <br>
+      <button class="btn btn-primary">HTML Introduction</button>
+  </div>
+  
+  <hr>
+  
+<div class="Section1" style="margin-bottom: 80px;">
+  <h1 class="h1 pageTitle" style="text-align: left; padding-right: 10px;">HTML basics</h1>
+  <p>This is a sample HTML code</p>
+  <p>This is a very basic HTML code. If you are using the <a href="">Visual Studio Code</a> (which we are gonna be using in this tutorial) if you type in '!' and click enter, this code block will be created for you</p>
+  <p class="lead">If you want to see how to download a code editor then <a href="../pages/error404.html">click here</a></p>
+  <pre>
+      <code class="language-html">
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang=&quot;en&quot;&gt;
+        &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;title&gt;Document&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            
+        &lt;/body&gt;
+        &lt;/html&gt;
+      </code>
+  </pre>
+  
+</div>
+
+<hr>
+
+<div class="container">
+  <div class="row">
+    <h1 class="h1 pageTitle" style="text-align: left; padding-right: 10px;">HTML Headers (h1 , h2, etc)</h1>
+    <p>h1 being the most largest and the h6 being the least largest</p>
+    <p>The code sample below shows all the headings in html </p>
+    <pre>
+        <code class="language-html">
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;title&gt;Learning About Headers&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;h1&gt;Hey! I am a h1&lt;/h6&gt;
+            &lt;h2&gt;Hey! I am a h1&lt;/h6&gt;
+            &lt;h3&gt;Hey! I am a h1&lt;/h6&gt;
+            &lt;h4&gt;Hey! I am a h1&lt;/h6&gt;
+            &lt;h5&gt;Hey! I am a h1&lt;/h6&gt;
+            &lt;h6&gt;Hey! I am a h1&lt;/h6&gt;
+          &lt;/body&gt;
+          &lt;/html&gt;
+        </code>
+    </pre>
+    
+    
+    
+    
+    <div class="text-center">
+    <blockquote class="imgur-embed-pub" lang="en" data-id="ljROaWf" data-context="false" ><a href="//imgur.com/ljROaWf">Header tutorial</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+    <h3 class="">The output</h3>
+    </div>
+
+    <h5>As you can see, h1 is the biggest and h6 is the smallest</h5>
+
+    <div class="jumbotron">
+      <p> There are literally hundereds of HTML Tags and it is impossible to<br>
+         cover all of them in this in this single page so <br>
+         if you want to check out all the other tags then<br>
+         check out this page where we explain the details of all the <br>
+         important tags    
+     </p>
+ 
+       <br>
+       Click this button to learn more about HTML TAGS <br>
+       <br>
+       <button class="btn btn-primary">HTML Tags</button>
+   </div>
+
+   <div class="btn btn-primary btn-lg" style="margin-right: 20px;"><i class="bi bi-arrow-left-circle-fill"></i> Previous Lesson 
+   </div>
+
+   <div class="btn btn-primary btn-lg">Next Lesson <i class="bi bi-arrow-right-circle-fill"></i>
+   </div>
+  </div>
+</div>
+
+<div class="Section2" style="margin-bottom: 80px;">
+
+
+
+
+  <!-- <iframe src="https://albumizr.com/a/mmga" scrolling="no" frameborder="0" allowfullscreen width="700" height="400"></iframe>
+  <a href='https://postimg.cc/jWDJj37w' target='_blank'><img src='https://i.postimg.cc/jWDJj37w/Screenshot-2021-12-17-151631.png' border='0' alt='Screenshot-2021-12-17-151631'/></a>
+  <a href="https://imgbox.com/hUI1st0v" target="_blank"><img src="https://thumbs2.imgbox.com/3b/cb/hUI1st0v_t.png" alt="image host" style="border: 20px;"/></a>
+<blockquote class="imgur-embed-pub" lang="en" data-id="ljROaWf" data-context="false" ><a href="//imgur.com/ljROaWf">Header tutorial</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script> -->
+
+
+
+<script src="prism.js"></script>    
+
+</body>
+</html>
